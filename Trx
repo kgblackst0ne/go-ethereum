@@ -1,0 +1,8 @@
+curl "https://virtual.mainnet.rpc.tenderly.co/effb822b-aa49-4c74-9c42-9a88de885e3c" \
+-X POST \
+-H "Content-Type: application/json" \
+-d '{
+    "jsonrpc": "2.0",
+    "method": "tenderly_setBalance",
+    "params": [["0xE58b9ee93700A616b50509C8292977FA7a0f8ce1"], "0xDE0B6B3A7640000"]
+}'
